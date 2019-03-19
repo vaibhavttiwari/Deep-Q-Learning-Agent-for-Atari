@@ -1,0 +1,14 @@
+{
+  "description": "Hyperparameters for the models", 
+  "learning_rate": 0.00025,
+  "total_episodes": 50,
+  "max_steps": 5000,
+  "batch_size": 64,
+  "explore_start": 1.0,
+  "explore_stop": 0.01,
+  "decay_rate": 0.00001,
+  "gamma": 0.9,
+  "pretrain_length": 64,
+  "memory_size": 10000,
+  "stack_size": 4
+}
